@@ -1,0 +1,13 @@
+@startuml
+artifact organigram.puml {
+
+    rectangle master
+
+    rectangle slave1
+    rectangle slave2
+
+    master -- slave1
+    master -- slave2
+
+}
+@enduml
